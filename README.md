@@ -1,29 +1,53 @@
-# waimai
+# 目标
+>  饿了么页面
 
-## Project setup
-```
-npm install
-```
+1. 用户模块
+> 登陆注册
+2. 店家模块
+> 显示商品
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 页面 
+## 路由结构
++ 登陆注册(消费者、商店老板)
++ app首页
+    + 外卖
+        + 美食
+        + 水果
+        + 饮品
+        + 星选
+        + 大牌
+        + 蜂鸟
+    + 订单
+        + 订单详情页
+            + 联系客服
+    + 用户中心(消费者、商店老板)
+        + 钱包
+        + 红包
+        + 金币
+        + 消息
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 突然感觉应该做一个有些用处的app，毕竟该会的也差不多会了，写一个好玩点的，可以上线的东西吧
 
-### Run your tests
-```
-npm run test
-```
+## 需要点思路
+### 先来点大胆的想法吧
 
-### Lints and fixes files
-```
-npm run lint
-```
++ 天气，日期，时钟
++ 记账app
++ ToDoList
++ 小说
++ 音乐
++ 视频
++ 游戏
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 模块
+## 基础模块
+### 登录
+### 注册
+### 主页
++ 构建索引
++ 设置路由
+### 后台管理
+
+## 功能模块
+
+### 记账app
